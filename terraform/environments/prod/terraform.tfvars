@@ -8,8 +8,8 @@ tags = {
   Owner   = "ProdTeam"
 }
 
-create_internet_gateway   = true
+create_internet_gateway   = false
 create_nat_gateway        = false
-create_public_route_table = true
-create_private_route_table= true
+create_public_route_table = false
+create_private_route_table= false
 create_subnets            = true
