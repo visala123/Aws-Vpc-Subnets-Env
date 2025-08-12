@@ -75,6 +75,7 @@ jobs:
         uses: infracost/actions/setup@v2.1.0
         with:
           api-key: ${{ secrets.INFRACOST_API_KEY }}
+          version: latest
 
       - name: Run Infracost Breakdown with Usage
         run: |
