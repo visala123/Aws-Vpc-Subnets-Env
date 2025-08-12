@@ -92,22 +92,20 @@ terraform/
 
 ## Update the terraform.tfvars 
 update the below values according to your requirement.
-
+```
 aws_region                = ""
 vpc_cidr                  = ""
 public_subnet_cidrs       = ["", ""]
-private_subnet_cidrs      = ["", "4"]
+private_subnet_cidrs      = ["", ""]
 environment               = ""
-tags = {
-  Project = ""
-  Owner   = ""
-}
-
+Project = ""
+Owner   = ""
 create_internet_gateway   = false
 create_nat_gateway        = false
 create_public_route_table = false
 create_private_route_table= false
 create_subnets            = true
+```
 
 ##  Required Secrets in GitHub
 
